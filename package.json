@@ -1,0 +1,20 @@
+{
+  "name": "oidc-proxy",
+  "version": "0.3.1",
+  "description": "Reverse proxy that adds OIDC auth",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "oidc-proxy": "./index.js"
+  },
+  "author": "Jacob Burroughs",
+  "license": "MIT",
+  "dependencies": {
+    "@okta/oidc-middleware": "^2.0.0",
+    "express": "^4.17.1",
+    "express-http-proxy": "^1.5.1",
+    "express-session": "^1.16.2"
+  }
+}
